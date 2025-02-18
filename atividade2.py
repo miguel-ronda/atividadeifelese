@@ -13,6 +13,20 @@ print("miguel do amaral paes ronda")
 nomelutador = str(input("insira o nome do combatente "))
 pesolutador = float(input("insira o peso"))
 print(nomelutador)
-if pesolutador < 55:
+if pesolutador >= 52 and pesolutador <65:
+    print("{} sua gategoria e pena".format(nomelutador))
+elif pesolutador >= 65 and pesolutador <72:
+    print("{} sua gategoria e leve".format(nomelutador))
+elif pesolutador >= 72 and pesolutador <79:
+    print("{} sua gategoria e pligeiro".format(nomelutador))
+elif pesolutador >= 79 and pesolutador <86:
+    print("{} sua gategoria e meio-medio".format(nomelutador))
+elif pesolutador >= 86 and pesolutador <90:
+    print("{} sua gategoria e medio".format(nomelutador))
+elif pesolutador >= 86 and pesolutador <100:
+    print("{} sua gategoria e meio-pesado".format(nomelutador))
+elif pesolutador >= 100:
+    print("{} sua gategoria e pesado".format(nomelutador))
+else:
     print("categoria invalida")
-else     
+
